@@ -282,7 +282,7 @@ trainer.add_event_handler(event_name=Events.EPOCH_COMPLETED,handler= lr_schedule
 
 
 
-##################################  CONVENTIONAL PYTORCH TRAINING
+##################################  CONVENTIONAL PYTORCH TRAINERS BUT DATASET FUNCTIONALITIES OF MONAI
 def train(epoch):
 	print('\nEpoch: %d' % epoch)
 	batch_train_loss = 0
